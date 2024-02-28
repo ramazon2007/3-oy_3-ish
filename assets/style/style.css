@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    height: 70px;
+    top: 10px;
+}
+
+.menu {
+    width: 114px;
+    height: 56px;
+    background-color: #E7E9EB;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu img {
+    width: 18px;
+    height: 10px;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.menu h1 {
+    position: relative;
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 400;
+    top: -10px;
+    left: 45px;
+}
+
+.search {
+    position: relative;
+    width: 200px;
+    height: 56px;
+    background-color: #E7E9EB;
+    border-radius: 50px;
+    cursor: pointer;
+    top: -55px;
+    left: 120px;
+    border: 0px;
+}
+
+.search input {
+    position: relative;
+    width: 160px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 0;
+    left: 20px;
+}
+
+.search i {
+    position: relative;
+    left: 15px;
+}
+
+.studio {
+    position: relative;
+    width: 74px;
+    height: 70px;
+    top: -110px;
+    left: 600px;
+}
+
+.ikon {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    top: -160px;
+    left: 1000px;
+}
+
+.ikon>i {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.red {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #F67280;
+    border-radius: 50px;
+    cursor: pointer;
+    top: -180px;
+    left: 1100px;
+}
+
+.red>h1 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    top: 5px;
+    left: 10px;
+}
+
+.select {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    top: -210px;
+    left: 1150px;
+}
+
+.select>select {
+    width: 69px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #E7E9EB;
+    cursor: pointer;
+    border: 0px;
+}
+
+.carousel_slide {
+    position: relative;
+    width: 1320px;
+    height: 441px;
+    background-color: #FFE2B5;
+    margin: 0 auto;
+    top: 50px;
+    border-radius: 50px;
+}
+
+.are {
+    position: relative;
+    font-size: 40px;
+    top: 30px;
+    left: 100px;
+}
+
+.layer {
+    position: relative;
+    width: 545px;
+    height: 461px;
+    top: -170px;
+    left: 500px;
+}
+
+.komfort {
+    position: relative;
+    font-family: poppin;
+    top: 40px;
+    left: 100px;
+}
+
+.discover {
+    position: relative;
+    width: 155px;
+    height: 60px;
+    background-color: #000000;
+    color: #D0AD37;
+    border-radius: 50px;
+    top: -150px;
+    left: 110px;
+}
+
+.discover>i {
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+
+.discover:hover {
+    background-color: transparent;
+    color: #D0AD37;
+    border: 2px solid #D0AD37;
+    transition: 0.5s;
+}
+
+.group {
+    position: relative;
+    width: 288px;
+    height: 187px;
+    top: 20px;
+    left: -220px;
+    cursor: pointer;
+}
+
+.tagi {
+    position: relative;
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 35px;
+    top: 100px;
+}
+
+.bulak {
+    width: 250px;
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.div {
+    width: 250px;
+    height: 282px;
+    background-color: #7be498;
+    border-radius: 20px;
+}
+
+.div>img {
+    position: relative;
+    left: -70px;
+    top: 10px;
+}
+
+.bulak>h1 {
+    position: relative;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak>h2 {
+    position: relative;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 800;
+    color: #FD4E61;
+    cursor: pointer;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak>h2>del {
+    color: #11293B;
+    cursor: pointer;
+}
+
+.bulak>img {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.bulak>button {
+    position: relative;
+    width: 245px;
+    height: 60px;
+    color: #11293B;
+    background-color: #bebebe;
+    border-radius: 20px;
+    border: 0px;
+    top: 30px;
+}
+
+.bulak>button>i {
+    position: relative;
+    left: -20px;
+}
+
+.div1 {
+    width: 250px;
+    height: 282px;
+    background-color: #F5E6FF;
+    border-radius: 20px;
+}
+
+.new {
+    width: 59px;
+    height: 31px;
+    background-color: #0077FF;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.new>h1 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 7px;
+    left: 15px;
+}
+
+.div1>img {
+    position: relative;
+    left: -50px;
+    top: -20px;
+}
+
+.bulak1>h1 {
+    position: relative;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak1>h2 {
+    position: relative;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 800;
+    color: #FD4E61;
+    cursor: pointer;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak1>h2>del {
+    color: #11293B;
+    cursor: pointer;
+}
+
+.bulak1>img {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.bulak1>button {
+    position: relative;
+    width: 245px;
+    height: 60px;
+    color: #11293B;
+    background-color: #bebebe;
+    border-radius: 20px;
+    border: 0px;
+    top: 30px;
+}
+
+.bulak1>button>i {
+    position: relative;
+    left: -20px;
+}
+
+.div2 {
+    width: 250px;
+    height: 282px;
+    background-color: #F67280;
+    border-radius: 20px;
+}
+
+.new1 {
+    position: relative;
+    width: 59px;
+    height: 31px;
+    background-color: #0077FF;
+    border-radius: 20px 0px 20px 0px;
+    left: 45px;
+    cursor: pointer;
+}
+
+.new1>h1 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 7px;
+    left: 15px;
+}
+
+.new2 {
+    position: relative;
+    width: 59px;
+    height: 31px;
+    background-color: orangered;
+    border-radius: 20px 0px 20px 0px;
+    top: -30px;
+    cursor: pointer;
+}
+
+.new2>h1 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 7px;
+    left: 15px;
+}
+
+.div2>img {
+    position: relative;
+    left: -120px;
+    top: -120px;
+}
+
+.bulak2>h1 {
+    position: relative;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak2>h2 {
+    position: relative;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 800;
+    color: #FD4E61;
+    cursor: pointer;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak2>h2>del {
+    color: #11293B;
+    cursor: pointer;
+}
+
+.bulak2>img {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.bulak2>button {
+    position: relative;
+    width: 245px;
+    height: 60px;
+    color: #11293B;
+    background-color: #bebebe;
+    border-radius: 20px;
+    border: 0px;
+    top: 30px;
+}
+
+.bulak2>button>i {
+    position: relative;
+    left: -20px;
+}
+
+.div3 {
+    width: 250px;
+    height: 282px;
+    background-color: #68EAEB;
+    border-radius: 20px;
+}
+
+.new3 {
+    position: relative;
+    width: 59px;
+    height: 31px;
+    background-color: #0077FF;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.new3>h1 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 7px;
+    left: 15px;
+}
+
+.div3>img {
+    position: relative;
+    left: -50px;
+    top: -20px;
+}
+
+.bulak3>h1 {
+    position: relative;
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 700;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak3>h2 {
+    position: relative;
+    font-family: inter;
+    font-size: 19px;
+    font-weight: 800;
+    color: #FD4E61;
+    cursor: pointer;
+    top: 20px;
+    left: 0px;
+}
+
+.bulak3>h2>del {
+    color: #11293B;
+    cursor: pointer;
+}
+
+.bulak3>img {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.bulak3>button {
+    position: relative;
+    width: 245px;
+    height: 60px;
+    color: #11293B;
+    background-color: #bebebe;
+    border-radius: 20px;
+    border: 0px;
+    top: 30px;
+}
+
+.bulak3>button>i {
+    position: relative;
+    left: -20px;
+}
+
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppin;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
